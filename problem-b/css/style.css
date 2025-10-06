@@ -1,8 +1,7 @@
-
 * {
     box-sizing: border-box;
 }
-/* typography */
+/* typography stuff */
 body {
   font-family: "Nunito Sans", Arial, sans-serif;
   font-size: 16px;
@@ -36,6 +35,10 @@ nav a {
   text-decoration: none;
   border-bottom: .8rem solid transparent; 
   transition: color .25s ease-out, border-bottom-color .25s ease-out;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
 nav a:hover,
 nav a:focus,
@@ -103,10 +106,6 @@ section.about .container,
 footer {
   color: #fff;
   background-color: #3e1305;
-}
-footer a {
-  color: #fff;
-  text-decoration: none;
 }
 footer p {
   margin: 0;
